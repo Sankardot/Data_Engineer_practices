@@ -10,7 +10,7 @@
 
 
 
--- order of excecution:
+-- order of excecution:  
 -- from - where - group by - having - select - order by - limit - offset 
 
 -- this is excecution of the query 
