@@ -1124,4 +1124,19 @@
 
 
 
-diff beween try except  and  if ccondition:
+# diff beween try except  and  if ccondition:
+    
+    
+# 1. if Condition
+# Used to check a condition before running code
+
+# It prevents errors
+# Works with logical conditions (True/False)
+
+
+
+#  2. try-except
+# Used to handle errors after they occur
+
+# It does not prevent errors
+# It catches runtime errors and avoid
