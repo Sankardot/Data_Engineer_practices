@@ -1020,3 +1020,108 @@
 
 
 
+
+
+
+
+# “Exception handling :
+# “Exception handling in Python is a mechanism used to handle runtime errors 
+# using try and except blocks, so the program execution continues normally without crashing.”
+
+
+# Using Exception Handling
+
+# Python uses:
+
+# try:“The try block is used to write risky code that may cause an exception during program execution.”
+
+
+# except:The except block is used to catch and handle exceptions so that the program does not terminate abruptly.”
+
+
+# else:The else block executes only when no exception occurs in the try block.
+
+# finally:  “The finally block is used to execute code that must run regardless of whether an exception occurred 
+# or not, such as closing files or releasing resources. 
+
+# “The finally block is used for cleanup activities and always executes regardless of whether an exception occurs.”
+
+
+
+
+
+
+
+# 1. Built-in Exceptions:
+    
+# “Built-in exceptions are predefined exceptions provided by Python to handle common runtime errors.”
+
+# Examples
+
+# ZeroDivisionError	 Divide by zero
+
+# ValueError	        Invalid value
+
+# TypeError	        Wrong data type
+
+# IndexError	        Invalid index
+
+# KeyError	     Wrong dictionary key
+
+# # Example
+# # a = 10
+# # # b = 0
+
+# # print(a / b)
+
+
+
+
+
+# Custom exceptions:Custom exceptions are user-defined exceptions created
+# to handle specific application or business-related errors.”
+
+
+# class MyError(Exception):
+#     pass
+
+# raise MyError("This is custom exception")
+
+
+
+
+
+
+# class AgeError(Exception):
+#     pass
+
+# age = 15
+
+# if age < 18:
+#     raise AgeError("Not eligible for voting")
+
+
+
+
+
+# Age = 15
+# Here, the variable age is assigned the value 15.
+# if age < 18:
+# This condition checks whether the age is less than 18.
+# raise AgeError("Not eligible for voting")
+# If the condition becomes true, a custom exception named AgeError is raised manually 
+# with the message “Not eligible for voting”.
+
+
+
+
+
+# Built-in Exception	            |       Custom Exception
+# Already available in Python	    |      Created by user
+# Handles common errors	        |      Handles business logic errors
+# Example: ValueError	            |       Example: AgeError
+
+
+
+
+diff beween try except  and  if ccondition:
