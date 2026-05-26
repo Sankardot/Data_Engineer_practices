@@ -181,7 +181,7 @@ virtualisation: it is s physical machine to run multiple  virtual machines
 
 imagine you have 16 gb ram and 
 
-vm1---> windoe
+vm1---> windows
 vm2---> linux
 vm3--->data base
 
@@ -194,6 +194,9 @@ are deployed managed and accesed
 theyare 4 types 
 
 publib, private, hybrid, community
+ 
 
 
+
+public: the name say it all it is accesible to public 
 
