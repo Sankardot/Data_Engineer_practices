@@ -95,6 +95,7 @@
 -- DDL DML DCL TCL DQL
 
 
+
 -- DDL: data defintion language 
 -- it is used create and modify table structure of database
 
@@ -392,4 +393,81 @@
 
 
 
+
+
+select statment: it is used to retrive the data from the database and it is the most commonly used sql statement
+select * from customer;
+
+select (*): it is used retrive all the columns fromthe table 
+it is called as wild card charcter 
+
+it is know as asterisk
+
+
+
+select distnict: it is used to retrive the unique values from the data and it is used remove the duplicates from the result set 
+
+
+select where : it is used filter the data based on the specified condition it is used to retrive the specific data from the table 
+
+
+like opertor: it is used to search for a specific pattern in a column 
+they are two wild card operators ofttenused in conjuction with the like operator 
+
+the percent sign % represents zero or more character
+
+% k ---> starts with k
+k % ---> ends with k
+
+
+
+
+order by : it is used to sort the result set in either ascending or descending order by default it is sorted in ascending order 
+select * from customer order by name asc;
+
+
+
+Rand(): the random statemnet used to display the record present in the table randomly 
+
+select * from customer order by rand() limit 5;
+
+
+
+limit : it is used to specify the number of records to return from the result set 
+it is often used with order by clause to limit the number of records
+
+
+
+offset: it is used to specify the number of records to skip before starting to return the records from the result set
+
+select * from customer order by name asc limit 5 offset 5;
+
+
+
+
+AND operator: all conditons must be true 
+it is used to filter the data based on multiple conditions and it return the result only whne all  the condtions must b true 
+
+or  operator : at least one condition must be true 
+it is used to filter the data based on multiple conditions and it return the result when at least one of the condition is true
+
+
+
+Not operator: it is used to negate a condition and it return the result when the condition is false
+it will give opsite result of the condition 
+
+
+select * from customers 
+where not country = "usa";
+
+
+In operator : it is used to specify multiple values in  a where clause and it return the result when the value matches any value in the list 
+select * from customers 
+where country in ("usa", "canada", "uk");
+
+
+
+between operator: it is used to filter the data based on a range of values and it return the result when the value is between the specified range
+select * from customers 
+where age between 18 and 30;
 

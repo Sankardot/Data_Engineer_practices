@@ -188,6 +188,8 @@ vm3--->data base
 
 
 
+
+
 deployment : a deployment model in cloud computing it defines how and where your cloud resorces 
 are deployed managed and accesed 
 
@@ -198,5 +200,68 @@ publib, private, hybrid, community
 
 
 
+
 public: the name say it all it is accesible to public 
+public deployment model in cloud are perfect  for organizat with growing and flucaying demands 
+entire infrasture is owned by cloud provider 
+you share it with other user multi tenant 
+pay for what you use --> no hardware maintence 
+
+startups , websites are analytics platform
+
+
+
+
+
+private : this  is cloud model where only specific users 
+can acces the resources provides by a vendor 
+
+used by single organzation only 
+can be on premise in company owns data center or hosted privately by a vendoer 
+
+offers high control and security 
+
+bankgoverments, hospital where data privacy is critical 
+
+
+
+
+
+
+hybrid : mix of on premise  + public is called a hybrid server 
+daa and apps move between both as needed
+best of both worlds -->flexibility plus control
+a company keeps its databases on premise but hosts its web application on azure 
+
+
+
+
+community:
+shared by several organization with comman goals 
+mangaed internally a buy a third privately
+reasearch institution sharing infrasture 
+
+government department sharing secure cloud 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
