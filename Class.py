@@ -24,23 +24,24 @@
 
 
 
-class Car:
+# class Car:
 
-    def __init__(self, brand, model, color, price):
-        self.brand = brand
-        self.model = model
-        self.color = color
-        self.price = price
+#     def __init__(self, brand, model, color, price):
+#         self.brand = brand
+#         self.model = model
+#         self.color = color
+#         self.price = price
 
-    def details(self):
-        return f"""
-Brand : {self.brand}
-Model : {self.model}
-Color : {self.color}
-Price : {self.price}
-"""
+#     def details(self):
+#         return f"""
+# Brand : {self.brand}
+# Model : {self.model}
+# Color : {self.color}
+# Price : {self.price}
+# """
 
 
-car1 = Car("BMW", "X5", "Black", "90 Lakhs")
+# car1 = Car("BMW", "X5", "Black", "90 Lakhs")
 
-print(car1.details())
+# print(car1.details())
+
