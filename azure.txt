@@ -17,11 +17,13 @@ ops = deploying, managing, montring, the software
 
 
 
+
 before using deveops we are using the water fall model 
 
 requirrment analyis -->planing-> modeling->coding->testing->deployment 
 
-if any case the model fails need to develop the water fall moel 
+if any case the model fails need to develop the water fall moel                       
+
 
 we use azile method in based in devops 
 
@@ -261,6 +263,77 @@ government department sharing secure cloud
 
 
 
+
+
+
+virtualisation: virtualisation in microsoft azure means creating virtual software based 
+versions of physical computer resources like servers storage or network 
+
+
+it allows one phyiscalmachine to run multiplt virtual machines vms each behaving like separate 
+with its own operating systemn memory and apps 
+
+vm1-----> webapp
+vm2--------> data base
+vm3------------>testing
+
+all three run independently on same hardware 
+
+
+
+benefits:
+cost- savivg , scalibilty , isolation , flexibility
+ 
+
+
+
+hypervisor : is a software compomnet that manges multiple vms in a computer 
+
+it allows multiple operating system like windows linux etc to run simultaneously on one physical server 
+a server each logicalyy isolated into multiple 
+supoose if we have 1000gb ram in server by using hypervisor 
+we can divide 1000 logical servers those logical serves are virtual machines 
+
+
+
+
+
+Data centers : collection of servers is called data centers 
+
+it consits multiple servers 
+each server has huge configuration 
+
+
+
+xyz company send a request a virtual machine so cloud provider accept the request 
+to one on server to accept  the vm 
+
+
+
+
+
+
+
+
+
+
+
+
+application programmming interface (Api):
+application programming interface
+ it  is like a bridge that allows two software application to talk each other back 
+
+lets one application send and receive data or request services from anoter apllication 
+
+
+example :
+
+you type in your city 
+
+your app calls a weather api 
+thw api send your city name to weather server 
+ther server returns temparture and conditons 
+the app show : 28 degress cloudy 
 
 
 
