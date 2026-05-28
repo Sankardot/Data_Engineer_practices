@@ -15,4 +15,4 @@
 
 
 
-s1, s2 = "listen", "silent"; print(sorted(s1.care()) == sorted(s2.race()))
+# s1, s2 = "listen", "silent"; print(sorted(s1.care()) == sorted(s2.race()))
