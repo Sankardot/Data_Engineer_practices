@@ -193,7 +193,7 @@
 
 
 
-# condtional statemts are alsi called decison making statments 
+# condtional statemts are also called decison making statments 
 # we use those statments while we  want to excutte a block of code while the given is condition is true 
 
 
@@ -608,7 +608,8 @@
 
 
 
-# list compareshesion : method of creating   list compreshion is a short and simple way to create a list using a single line of code 
+# list compareshesion : method of creating   list compreshion is a short and simple way to create a
+# list using a single line of code 
 
 # square =[X * X for X in range(1,5)]
 # print(square)
@@ -1141,6 +1142,130 @@
 # It does not prevent errors
 # It catches runtime errors and avoid
 
+
+
+
+
+
+# file handling 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# oops : object oriented programming  based on the concept of objects and classes
+# the object contains code and data 
+
+# data is in the form of properties and code is in form of methods 
+
+# data ----> properties
+# code-----> methods 
+
+
+
+# properties : they are the attributes of the object
+# methods : they are the functions that are defined inside the class
+#  and they are used to perform operations on the properties of the object
+ 
+ 
+ 
+#  states ----> identification 
+#  behaviour ----> action 
+ 
+ 
+ 
+ 
+        #                                    object 
+        #                                       |
+        #                                       |
+        #                      ------------------------------------------
+        #                      |                                         | 
+        #           identification                                  behaviour
+        #     how it can be identified                        how it can behave
+         
+        #       shape, size, color                            move jump, stop, etc 
+        
+                #   varibles                                        fucntion
+        
+        
+         
+         
+         
+         
+         
+# types of oops 
+
+# class 
+# object
+# inheritance
+# polymorphism
+# encapsulation
+# abstraction
+
+
+
+
+
+# oops terminology:
+    
+    
+# attributes are also known as dat members or variables 
+# methods are also known as member functions or functions
+
+
+
+             
+             
+             
+             
+# types:
+
+
+# class: class is blue print of the object it is a template 
+
+# # it is user defined data structure that contains data members and member functions 
+# #                                             |                   |    
+# #                                     attributes           methods
+       
+       
+# using one class we can create a many objects as you want 
+# and you create a multiple objects for a same class which are called as simalr are identical objects
+
+
+# class sankar():
+#     print("hello world")
+
+
+
+
+# in class one varible can not refer to multiple address of an object
+ 
+# one object  addres can be stored in  multiple variables 
+
+
+
+
+
+
+
+
+# object: object is a instance of class 
+# object is entity which has states and  behaviour 
+
+# using object we can acces the method and variables 
 
 
 
