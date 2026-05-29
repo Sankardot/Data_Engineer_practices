@@ -381,3 +381,61 @@ Central India
 South India
 East US
 
+
+
+
+3. Availability Zone An Availability Zone (AZ) is a physically separate datacenter within a region. 
+
+Example: Region: pune, chennai, mumbai  
+
+
+
+paired zones: azure alwas pairs regions for the disaster recovery
+if one region goes down the other automatically servers as a back in near by location 
+
+azure pairs regions together inside the same geographic area 
+
+if central pune faces  an outage or power problem 
+azure automatically switch yu back  to south india 
+so your application keep runing withput downtime 
+
+
+
+low latency : data travels very fast less delay (good)
+
+high latency: data takes longer time , move delay(bad)
+
+
+sending are receiving will be easy low latency but it is time taking process in high latency 
+first it will search near by zones ----> for backup 
+
+
+1 region -------> 3 zones 
+
+
+
+
+types of zones : 
+
+they are divided into 4 zones 
+
+public: they are normal region that everyone can use they are available world wide 
+
+government: used by government agenices (poilica , defines fianced department)
+
+sovereign region : these are independen region that data follow specific countyry or region laws 
+        data stays completly inside the country not shared with globally azure cloud 
+
+
+azure pair region : every  azure region paired with another in same geography 
+
+if one regions fails the other keeps servies running 
+
+
+
+
+
+load balancer: it is a traffic controller  
+a load balancer is s network device or service that distributes i
+ncoming traffic requests across multiple servers 
+

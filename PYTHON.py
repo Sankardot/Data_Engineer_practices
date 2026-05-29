@@ -1271,3 +1271,274 @@
 
 
 
+
+# object is collection of variables and methods  that  act on those data simalrly a class
+# is a blue print for that object 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# self : self is special varible  that refers the current instance of the class 
+#  used to acces the current class attributes and methods 
+ 
+ 
+
+# constructor : it is  aapecial method in class that is automatically called when an object is created 
+
+# it is mainley used to initialize the arttibutes of the object
+
+# it is defined with __init__ method
+
+# it is divided into 2 types 
+
+# default constructor , parameterized constructor 
+
+# default constructor : it is a constructor which does not accept any arguments except self 
+
+# class student:
+#         def __init__(self):
+#                 self.name = "sankar"
+
+# s1 = student()
+# print(s1.name)
+
+
+
+
+# class Animal:
+#     bread="PUG"
+#     def __init__(self,name):
+#         self.name=name
+    
+
+# class Dog(Animal):
+#     bread="germanshephord"
+#     def sound(self):
+#         print(self.name,"barck")
+# d=Dog("Chintu")
+# print(d.bread)
+# d.sound()
+
+# class Cat(Animal):
+#     def sound(self, msg):
+#         print(self.name, "meow", msg)
+# c=Cat("Catty")
+# c.sound("he")
+# print(c.bread)
+
+
+
+
+# parameterized constructor : it is a constructor which acccepts arguments beside self 
+
+# used to initialize the attributes of the object with specific values 
+
+
+# class student:
+#         def output(self):
+#                 print("hello world")
+                
+# s1= student()
+# s1.output()
+
+
+
+
+
+# class Animal:
+#     bread="PUG"
+#     def __init__(self,name):
+#         self.name=name
+    
+
+# class Dog(Animal):
+#     bread="germanshephord"
+#     def sound(self):
+#         print(self.name,"barck")
+# d=Dog("Chintu")
+# print(d.bread)
+# d.sound()
+
+
+
+
+# # inheritance : it is a process of creating new class from existing class 
+# that inherits methods and properties fron another class 
+
+
+# they are divided into 5 types
+
+# single level inheritance 
+# multiple inheritance 
+# multilevel inheritance 
+# hierarchical inheritance 
+# hybrid inheritance 
+
+
+# single : it is a process of creating a new class from existing class  
+
+
+
+# class brand:
+#         def __init__(self,name):
+#                 self.name = name 
+        
+# class Watch(brand):
+#         def model(self):
+#                 print(self.name, "Smart watch")
+
+# obj = Watch("Apple")
+# obj.model()
+
+
+
+
+
+
+
+
+# multiple inheritance : a child class inherits from more than one parent class is called multiple inheritance 
+
+
+# class father:
+#         def __init__(self,Fathername):
+#                 self.Fathername = Fathername 
+
+# class mother:
+#         def __init__(self,Mothername):
+#                 self.Mothername = Mothername
+                
+# class child(father, mother):
+#         def __init__(self,childname,Fathername,Mothername):
+#                 self.childname = childname
+#                 father.__init__(self,Fathername)
+#                 mother.__init__(self,Mothername)
+        
+#         def biodata(self):
+#                 print(self.childname, "is the child of", self.Fathername, "and",self.Mothername)
+
+# s1 = child("Sankar", "Nagaraj", "Suseela")
+# s1.biodata()
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# multileveel inheritance : a chain of inheritance where a class inherits from a class which 
+#  is also a child of another class is called multilevel inheritance 
+
+
+# class school():
+#         def __init__(self,name):
+#                 self.name = name
+        
+# class student(school):
+#         def __init__(self,location,name):
+#                 self.location = location
+#                 school.__init__(self,name) #calling a constructor of a parent class
+
+# class sankar(student):
+#         def __init__(self, section, location, name):
+#                 self.section = section
+#                 student.__init__(self, location, name) #calling a constructor of a parent class 
+                
+#         def details(self):
+#                 print("school name:",self.name)
+#                 print("location:",self.location)
+#                 print("section:",self.section)
+
+# s1 = sankar("A", "PUNE", "SAI")
+# s1.details()
+
+
+
+
+
+
+# hierarchical inheritance : when multiple child classes inherits from a single parent class
+#  is called hierachical inheritance 
+ 
+ 
+# class suseela():
+#         def output(self):
+#                 print("this is mother class")
+
+# class haritha(suseela):
+#         def output(self):
+#                 print("this is daughter class")
+
+# class sankar(suseela):
+#         def output(self):
+#                 print("this is son class")
+
+# s1 = suseela()
+# s1.output()
+# s2 = haritha()
+# s2.output()
+# s3 = sankar()
+# s3.output()
+
+
+
+
+
+class apple():
+        def __init__(self,applename):
+                self.applename = applename
+
+class watch(apple):
+        def __init__(self, series, color, applename):
+                super().__init__(applename)
+                self.series = series
+                self.color = color
+
+        def output(self):
+                print(self.series, "also in", self.color, "color,", self.applename)
+
+w1 = watch("series 8", "red", "apple")
+w1.output()
+
+
+class phone(apple):
+        def __init__(self, model, color, applename):
+                self.model=model
+                self.color=color
+                super().__init__(applename)
+        def dataapple(self):
+                print(self.model, "also in", self.color, "color,", self.applename)
+p1 = phone("iPhone 14", "blue", "apple")
+p1.dataapple()
+
+
+
+
+
+
+
+
+super class : the super keyword in pyhton is used to call a method from the parent 
+in a child class it is used to access the method of parent class in child class
+
+super().
