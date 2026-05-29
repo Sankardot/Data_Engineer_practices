@@ -338,3 +338,46 @@ the app show : 28 degress cloudy
 
 
 
+
+
+
+
+
+
+what i smean by region  in azure 
+
+
+region :a region is a specific geographic area where microsoft has built one or more data centers
+
+azure has move that 60 regions world wide making it the largest cloud network globally 
+
+an azure region --->location where microsoft 
+ azure resources  like vms , storage , database, etc are physically are hosted 
+
+
+
+ for 1 region ---> 3 availiability zones 
+
+
+1. Geography
+
+A Geography is a large area containing one or more Azure regions.
+
+Examples:
+
+India
+United States
+Europe
+
+
+
+2. Region
+
+A Region is a specific location containing one or more datacenters.
+
+Examples:
+
+Central India
+South India
+East US
+
