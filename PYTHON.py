@@ -1504,41 +1504,111 @@
 
 
 
-class apple():
-        def __init__(self,applename):
-                self.applename = applename
+# class apple():
+#         def __init__(self,applename):
+#                 self.applename = applename
 
-class watch(apple):
-        def __init__(self, series, color, applename):
-                super().__init__(applename)
-                self.series = series
-                self.color = color
+# class watch(apple):
+#         def __init__(self, series, color, applename):
+#                 super().__init__(applename)
+#                 self.series = series
+#                 self.color = color
 
+#         def output(self):
+#                 print(self.series, "also in", self.color, "color,", self.applename)
+
+# w1 = watch("series 8", "red", "apple")
+# w1.output()
+
+
+# class phone(apple):
+#         def __init__(self, model, color, applename):
+#                 self.model=model
+#                 self.color=color
+#                 super().__init__(applename)
+#         def dataapple(self):
+#                 print(self.model, "also in", self.color, "color,", self.applename)
+# p1 = phone("iPhone 14", "blue", "apple")
+# p1.dataapple()
+
+
+
+
+
+
+
+
+
+
+# super class : the super keyword in pyhton is used to call a method from the parent 
+# in a child class it is used to access the method of parent class in child class
+
+# super().
+
+
+
+
+
+
+
+
+# # hybrid inheritance : it is a combination of more than one type of inheritance 
+
+
+
+# # Base class
+# class Student:
+#     def student_info(self):
+#         print("Student Information")
+
+# # Derived class from Student
+# class Marks(Student):
+#     def marks_info(self):
+#         print("Marks Obtained: 85")
+
+# # Another base class
+# class Sports:
+#     def sports_info(self):
+#         print("Sports Grade: A")
+
+# # Hybrid Inheritance
+# class Result(Marks, Sports):
+#     def display_result(self):
+#         print("Result Declared Successfully")
+
+# # Object creation
+# r = Result()
+
+# r.student_info()
+# r.marks_info()
+# r.sports_info()
+# r.display_result()
+
+
+
+
+
+class mobile():
+        def __init__(self,brand,company):
+                self.brand = brand 
+                self.company = company 
+
+class Samsung(mobile):
+        def __init__(self,model,brand,company):
+                self.model = model 
+                super().__init__(brand,company)
+                
         def output(self):
-                print(self.series, "also in", self.color, "color,", self.applename)
+                print(self.model, "is a model of", self.brand, "which is manufactured by", self.company)
 
-w1 = watch("series 8", "red", "apple")
-w1.output()
-
-
-class phone(apple):
-        def __init__(self, model, color, applename):
-                self.model=model
-                self.color=color
-                super().__init__(applename)
-        def dataapple(self):
-                print(self.model, "also in", self.color, "color,", self.applename)
-p1 = phone("iPhone 14", "blue", "apple")
-p1.dataapple()
-
-
-
-
-
-
-
-
-super class : the super keyword in pyhton is used to call a method from the parent 
-in a child class it is used to access the method of parent class in child class
-
-super().
+class apple(mobile):
+        def __init__(self,model,brand,company):
+                self.model = model
+                super(). __init__(brand,company)
+        def output(self):
+                print(self.model, "is a model of", self.brand, "which is manufactured by", self.company)
+                
+s1 = Samsung("S27 Ultra", "Samsung", "Samsung Electronics")
+s1.output()
+s2 = apple("iPhone 17", "Apple", "Apple inc")
+s2.output()
