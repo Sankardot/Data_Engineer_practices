@@ -439,3 +439,37 @@ load balancer: it is a traffic controller
 a load balancer is s network device or service that distributes i
 ncoming traffic requests across multiple servers 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Priority	Azure Service	                                                Purpose
+1	 Microsoft Azure Storage Account (ADLS Gen2)            	Store big data files (CSV, JSON, Parquet, Delta)
+
+2	Azure Data Factory (ADF)	                                  ETL/ELT pipelines, data movement
+
+3	Azure Databricks	                                        PySpark, Big Data processing, Data Engineering
+
+4	Azure Synapse Analytics                                   	Data Warehouse + Big Data Analytics
+
+5	Azure SQL Database	                                              Relational database
+
+6	Azure Event Hubs	                                            Real-time streaming data
+
+7	Azure Stream Analytics	                                              Process streaming data
+
+8	Azure Data Lake Storage Gen2	                                        Enterprise Data Lake
+
+9	Microsoft Fabric	                                            Modern analytics and lakehouse
+
+10	Azure Key Vault	                                                Store passwords, secrets, keys securel

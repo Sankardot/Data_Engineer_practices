@@ -1844,20 +1844,20 @@
 
 
 
-abstraction : hiding the internal details and showing only the functionality to the user us called abstraction 
+# abstraction : hiding the internal details and showing only the functionality to the user us called abstraction 
 
-it is achieved by using abstract class and abstract method 
+# it is achieved by using abstract class and abstract method 
  
  
-the implemtation will be in child class  and declartion will be in parent class 
+# the implemtation will be in child class  and declartion will be in parent class 
 
 
-implentation : it is the process of providing the functionality to the abstract method in the child class 
+# implentation : it is the process of providing the functionality to the abstract method in the child class 
 
-declaration : it is the process of declaring the abstract method in the parent class 
-
-
+# declaration : it is the process of declaring the abstract method in the parent class 
 
 
-decorators : a decorator is a function that takes another  funtion as an input  and adds extra functionality  to it  without 
-modifying the orginal function it 
+
+
+# decorators : a decorator is a function that takes another  funtion as an input  and adds extra functionality  to it  without 
+# modifying the orginal function it 
