@@ -218,7 +218,8 @@
 
 
 
-
+# method overlaoding : same name and  different parameters 
+# it is assocaited with compile type polymorphism 
 
 
 # class demo():
@@ -231,9 +232,10 @@
 # d.add(1,2)
 # d.add(1,2,3)
 
+#  it is will throw error because python does not support method overlaoding but we can achieve method overloading 
+#  by using default parameters or variable length arguments
 
-
-
+# * Args : it is used to pass a variable number of non keyword arguments to a function
 
 # class demo():
 #     def add(self, *a):
@@ -243,3 +245,144 @@
 # d = demo()
 # d.add(1,2)
 # d.add(1,2,3,2,32)
+
+
+
+# runtime : it is associated with polymorphism and it is achieved by method overridding
+#  it is dynamic binding 
+#  it is called as method overridding 
+  
+# method overridding : same name and same paramters  in parent class and child class
+
+
+# class animal:
+#     def sound(self):
+#         print("animal makes sound")
+
+# class dog(animal):
+
+#     def sound(self):
+#         print("Dog barks")
+# obj = dog()
+# obj.sound()
+
+# it will print child class method because it is overridding  the parenent class
+
+# superkeyword() it is used to call a method from the parent class in tha child class
+
+
+
+
+# class animal:
+#     def sound(self):
+#         print("animal makes sound")
+        
+# class dog(animal):
+#     def sound(self):
+#         super().sound() # it will call the parent class method
+#         print("Dog barks")
+        
+        
+# obj = dog()
+# obj.sound()
+
+
+
+
+# it will print both because we are using the super keyword to call the aprenet class in the child class method
+
+
+
+
+
+
+# encapsulation: wrapping a data and methods into a single logical unit is called encapsulation 
+
+# they are acces modifers : public, protected , private 
+
+
+# it is used to protect data from the unauthrized access and modification 
+
+
+# public : is is accessible from any where  in the program 
+
+# class public:
+#     def __init__(self,name):
+#         self.name= name 
+    
+#     def output(self):
+#         print("my name is", self.name)
+# p = public("sanki")
+# p.output() 
+
+
+
+# this is called punblic beacause we can access the data and method from any where in the program 
+
+
+
+# protected: it is accessible with in the class and its subclasses but not out side  the class 
+
+# class protected:
+#     def __init__(self,name, age):
+#         self.name = name
+#         self._age = age
+#     def display(self):
+#         print("my name is", self.name)
+# class sub(protected):
+#     def output(self):
+#         print("my age is", self._age)
+# p = sub("Sanki", 23)
+# p.display()
+# p.output()
+
+
+
+# private : it is accesible only within the class and not outside the class
+
+# class private:
+    
+#     def __init__(self,name,age, salary):
+#         self.name = name 
+#         self._age = age 
+#         self.__salary = salary
+#     def display(self):
+#         print("my name is", self.name)
+#         print("my age is", self._age)
+#         print("my salary is", self.__salary)
+# p = private("sanki", 23, 34323)
+# p.display()
+
+
+
+
+# local varible : a varible id define dinside the function is called a local variable 
+# it can be only accesed inside the function 
+# it is created when the function starts and destroyed when the fucntion ends 
+
+
+
+# def my_function():
+#     x = 10 
+#     print("inside the function", x)
+# my_function()
+
+
+
+
+
+
+# global variable : a variable s defined outside the fucntion is called a global variable 
+# it can be acceed from any where in the program 
+
+#  but if u want modify inisde the fucntion you must use the global keyword to modify the global varible inside the fucntion 
+ 
+ 
+ 
+# y = 20 
+# def mu_function():
+#     global y
+#     y =  30 
+#     print("inside the function", y)
+# mu_function()
+# print("outside the function", y)

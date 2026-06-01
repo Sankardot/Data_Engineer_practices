@@ -1588,27 +1588,276 @@
 
 
 
-class mobile():
-        def __init__(self,brand,company):
-                self.brand = brand 
-                self.company = company 
+# class mobile():
+#         def __init__(self,brand,company):
+#                 self.brand = brand 
+#                 self.company = company 
 
-class Samsung(mobile):
-        def __init__(self,model,brand,company):
-                self.model = model 
-                super().__init__(brand,company)
+# class Samsung(mobile):
+#         def __init__(self,model,brand,company):
+#                 self.model = model 
+#                 super().__init__(brand,company)
                 
-        def output(self):
-                print(self.model, "is a model of", self.brand, "which is manufactured by", self.company)
+#         def output(self):
+#                 print(self.model, "is a model of", self.brand, "which is manufactured by", self.company)
 
-class apple(mobile):
-        def __init__(self,model,brand,company):
-                self.model = model
-                super(). __init__(brand,company)
-        def output(self):
-                print(self.model, "is a model of", self.brand, "which is manufactured by", self.company)
+# class apple(mobile):
+#         def __init__(self,model,brand,company):
+#                 self.model = model
+#                 super(). __init__(brand,company)
+#         def output(self):
+#                 print(self.model, "is a model of", self.brand, "which is manufactured by", self.company)
                 
-s1 = Samsung("S27 Ultra", "Samsung", "Samsung Electronics")
-s1.output()
-s2 = apple("iPhone 17", "Apple", "Apple inc")
-s2.output()
+# s1 = Samsung("S27 Ultra", "Samsung", "Samsung Electronics")
+# s1.output()
+# s2 = apple("iPhone 17", "Apple", "Apple inc")
+# s2.output()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # polymorphism : it is the ability of an object to take many forms 
+# # same operation can be performed in differnet ways is called polymorphism 
+
+# it is divided into types 
+# they are compile type and runtime polymorphism 
+
+
+# compile time : it is statis it not supported in pyhton 
+# it is assocaited with method overloading 
+
+
+
+# we are not defining the type of paremmerts in the pyhton thaty is not suppotrted in pyhton 
+
+
+
+
+# method overlaoding : same name and  different parameters 
+# it is assocaited with compile type polymorphism 
+
+
+# class demo():
+#     def add(a,b):
+#         print(sum(a,b))
+        
+#     def add(a, b, c):
+#         print(sum(a, b, c))
+# d = demo()
+# d.add(1,2)
+# d.add(1,2,3)
+
+#  it is will throw error because python does not support method overlaoding but we can achieve method overloading 
+#  by using default parameters or variable length arguments
+
+# * Args : it is used to pass a variable number of non keyword arguments to a function
+
+# class demo():
+#     def add(self, *a):
+#         print(sum(a))
+#     def add(self, *a):
+#         print(sum(a))
+# d = demo()
+# d.add(1,2)
+# d.add(1,2,3,2,32)
+
+
+
+# runtime : it is associated with polymorphism and it is achieved by method overridding
+#  it is dynamic binding 
+#  it is called as method overridding 
+  
+# method overridding : same name and same paramters  in parent class and child class
+
+
+# class animal:
+#     def sound(self):
+#         print("animal makes sound")
+
+# class dog(animal):
+
+#     def sound(self):
+#         print("Dog barks")
+# obj = dog()
+# obj.sound()
+
+# it will print child class method because it is overridding  the parenent class
+
+# superkeyword() it is used to call a method from the parent class in tha child class
+
+
+
+
+# class animal:
+#     def sound(self):
+#         print("animal makes sound")
+        
+# class dog(animal):
+#     def sound(self):
+#         super().sound() # it will call the parent class method
+#         print("Dog barks")
+        
+        
+# obj = dog()
+# obj.sound()
+
+
+
+
+# it will print both because we are using the super keyword to call the aprenet class in the child class method
+
+
+
+
+
+
+# encapsulation: wrapping a data and methods into a single logical unit is called encapsulation 
+
+# they are acces modifers : public, protected , private 
+
+
+# it is used to protect data from the unauthrized access and modification 
+
+
+# public : is is accessible from any where  in the program 
+
+# class public:
+#     def __init__(self,name):
+#         self.name= name 
+    
+#     def output(self):
+#         print("my name is", self.name)
+# p = public("sanki")
+# p.output() 
+
+
+
+# this is called punblic beacause we can access the data and method from any where in the program 
+
+
+
+# protected: it is accessible with in the class and its subclasses but not out side  the class 
+
+# class protected:
+#     def __init__(self,name, age):
+#         self.name = name
+#         self._age = age
+#     def display(self):
+#         print("my name is", self.name)
+# class sub(protected):
+#     def output(self):
+#         print("my age is", self._age)
+# p = sub("Sanki", 23)
+# p.display()
+# p.output()
+
+
+
+# private : it is accesible only within the class and not outside the class
+
+# class private:
+    
+#     def __init__(self,name,age, salary):
+#         self.name = name 
+#         self._age = age 
+#         self.__salary = salary
+#     def display(self):
+#         print("my name is", self.name)
+#         print("my age is", self._age)
+#         print("my salary is", self.__salary)
+# p = private("sanki", 23, 34323)
+# p.display()
+
+
+
+
+# local varible : a varible id define dinside the function is called a local variable 
+# it can be only accesed inside the function 
+# it is created when the function starts and destroyed when the fucntion ends 
+
+
+
+# def my_function():
+#     x = 10 
+#     print("inside the function", x)
+# my_function()
+
+
+
+
+
+
+# global variable : a variable s defined outside the fucntion is called a global variable 
+# it can be acceed from any where in the program 
+
+#  but if u want modify inisde the fucntion you must use the global keyword to modify the global varible inside the fucntion 
+ 
+ 
+ 
+# y = 20 
+# def mu_function():
+#     global y
+#     y =  30 
+#     print("inside the function", y)
+# mu_function()
+# print("outside the function", y)
+
+
+
+
+
+
+# to access the modifiy private variables we use getter and seeter methods 
+
+
+# getter : a method used to read / access the value of a private variable 
+
+
+# setter : a method used to modify the value of private variable 
+
+
+
+# these are used encapsulation to provide controlled acces to private data and perform validation  when needed 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+abstraction : hiding the internal details and showing only the functionality to the user us called abstraction 
+
+it is achieved by using abstract class and abstract method 
+ 
+ 
+the implemtation will be in child class  and declartion will be in parent class 
+
+
+implentation : it is the process of providing the functionality to the abstract method in the child class 
+
+declaration : it is the process of declaring the abstract method in the parent class 
+
+
+
+
+decorators : a decorator is a function that takes another  funtion as an input  and adds extra functionality  to it  without 
+modifying the orginal function it 
