@@ -166,11 +166,11 @@
 #         Mother.__init__(self,Mothername)
         
 #     def details(self):
-#         print(self.childname,"is the son of Mr",self.Fathername,"&",self.Mothername)
+# #         print(self.childname,"is the son of Mr",self.Fathername,"&",self.Mothername)
 
-# #object creation
-# C=Child("Raju","Swamy","Lakshmi")
-# C.details()
+# # #object creation
+# # C=Child("Raju","Swamy","Lakshmi")
+# # C.details()
 
 
 
@@ -182,34 +182,64 @@
 
 
         
-#base class
-class Company:
-    def __init__(self,Companyname):
-        self.Companyname=Companyname
+# #base class
+# class Company:
+#     def __init__(self,Companyname):
+#         self.Companyname=Companyname
         
-class Developer(Company):
-    def __init__(self,Developername,designation,Companyname):
-        self.Developername=Developername
-        self.designation=designation
-        super().__init__(Companyname)
+# class Developer(Company):
+#     def __init__(self,Developername,designation,Companyname):
+#         self.Developername=Developername
+#         self.designation=designation
+#         super().__init__(Companyname)
     
-    def output(self):
-        print(self.Developername,"works as",self.designation,"at",self.Companyname)
+#     def output(self):
+#         print(self.Developername,"works as",self.designation,"at",self.Companyname)
         
-D=Developer("Gowtham","Backend developer","XYZ")
-D.output()
+# D=Developer("Gowtham","Backend developer","XYZ")
+# D.output()
         
     
-#class tester
-class Tester(Company):
-    def __init__(self,Testername,designation,Companyname):
-        self.Testername=Testername
-        self.designation=designation
-        super().__init__(Companyname)
+# #class tester
+# class Tester(Company):
+#     def __init__(self,Testername,designation,Companyname):
+#         self.Testername=Testername
+#         self.designation=designation
+#         super().__init__(Companyname)
     
-    def output(self):
-        print(self.Testername,"works as",self.designation,"at",self.Companyname)
+#     def output(self):
+#         print(self.Testername,"works as",self.designation,"at",self.Companyname)
         
         
-T=Tester("Ankith","Devops engineer","XYZ")
-T.output()
+# T=Tester("Ankith","Devops engineer","XYZ")
+# T.output()
+
+
+
+
+
+
+
+
+# class demo():
+#     def add(a,b):
+#         print(sum(a,b))
+        
+#     def add(a, b, c):
+#         print(sum(a, b, c))
+# d = demo()
+# d.add(1,2)
+# d.add(1,2,3)
+
+
+
+
+
+# class demo():
+#     def add(self, *a):
+#         print(sum(a))
+#     def add(self, *a):
+#         print(sum(a))
+# d = demo()
+# d.add(1,2)
+# d.add(1,2,3,2,32)
