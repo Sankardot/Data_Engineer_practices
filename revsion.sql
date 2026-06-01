@@ -471,3 +471,31 @@
 -- select * from customers 
 -- where age between 18 and 30;
 
+
+
+
+
+
+
+Aggregate fucntion: it is a function that used to perform a calculation on a set of values and a return a single value as a result 
+
+it maniley used by group by clause and having clause to perform the calculation on the group of data 
+
+
+group by clause spilts the result set into group of values 
+
+
+sum , mean ,max, count, avg
+
+
+sum-->numeric
+avg--->numeric
+count-->both
+min&max---> both 
+
+
+
+
+
+
+

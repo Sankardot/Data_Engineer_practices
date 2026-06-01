@@ -344,7 +344,7 @@ the app show : 28 degress cloudy
 
 
 
-what i smean by region  in azure 
+what is mean by region  in azure 
 
 
 region :a region is a specific geographic area where microsoft has built one or more data centers
