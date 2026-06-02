@@ -1,6 +1,16 @@
 1. Customer Analytics Platform (AWS)
 
 
-
-
+Role: Big Data Engineer
+Environment: AWS Glue, EMR, S3, Athena, Redshift, Lambda, PySpark, Hive, Airflow
+Duration: Jan 2024 – Oct 2024
+Developed a cloud-based data analytics platform to process customer transaction and behavioral data using AWS Big Data technologies.
+•	Built ETL pipelines using AWS Glue and PySpark to process large-scale structured and semi-structured datasets.
+•	Used Amazon EMR clusters for distributed data processing and Spark job execution.
+•	Stored raw and processed data in Amazon S3 with partitioning and optimization for analytics.
+•	Created data warehouse tables in Amazon Redshift for business reporting and dashboarding.
+•	Used AWS Athena for serverless querying and ad-hoc data analysis.
+•	Automated workflows using Apache Airflow and monitored jobs using AWS CloudWatch.
+•	Optimized Spark jobs and improved performance by using partitioning, caching, and efficient joins.
+•	Implemented data validation, cleansing, and transformation logic using PySpark and SQL.
 

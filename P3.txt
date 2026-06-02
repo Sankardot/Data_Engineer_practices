@@ -1,1 +1,16 @@
 3. Telecom Data Processing System (On-Prem Hadoop)
+
+
+Role: Big Data Engineer
+Environment: Hadoop, Hive, Spark, PySpark, Sqoop, Airflow, HDFS
+Duration: Apr 2022 – Dec 2023
+Description: Built a Big Data platform for telecom transaction processing and customer usage analytics by handling massive structured and semi-structured datasets.
+Roles & Responsibilities
+•	Developed Spark and PySpark applications to process telecom usage data.
+•	Imported data from Oracle and MySQL into Hadoop using Sqoop.
+•	Created Hive managed and external tables for reporting and analysis.
+•	Implemented Airflow DAGs to automate daily and monthly ETL workflows.
+•	Worked with HDFS for distributed data storage and management.
+•	Optimized Hive and Spark queries to improve performance and reduce execution time.
+•	Handled data transformations and cleansing using PySpark DataFrames.
+•	Provided production support and resolved issues in batch processing pipelines.
