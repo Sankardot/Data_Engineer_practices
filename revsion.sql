@@ -477,25 +477,51 @@
 
 
 
-Aggregate fucntion: it is a function that used to perform a calculation on a set of values and a return a single value as a result 
+-- Aggregate fucntion: it is a function that used to perform a calculation on a set of values and a return a single value as a result 
 
-it maniley used by group by clause and having clause to perform the calculation on the group of data 
-
-
-group by clause spilts the result set into group of values 
+-- it maniley used by group by clause and having clause to perform the calculation on the group of data 
 
 
-sum , mean ,max, count, avg
+-- group by clause spilts the result set into group of values 
+
+-- GROUP BY is a row operation because it groups multiple rows into summary groups based on the values of one or more columns.
 
 
-sum-->numeric
-avg--->numeric
-count-->both
-min&max---> both 
+-- sum , mean ,max, count, avg
+
+
+-- sum-->numeric
+-- avg--->numeric
+-- count-->both
+-- min&max---> both 
 
 
 
 
 
 
+
+-- scalar function : it is  a function that operates on single value and return a single value as aresult 
+
+-- performs a single row at a time ans retuns one result per row 
+
+-- scalar function : Lcase,Ucase,Lenght,mid, round
+
+-- Ucase: it is used to conert the string value to upper case 
+
+-- lcase : it is used to convert the string value into lower case 
+
+-- length: it is used to return the number of charcters in astring value 
+
+-- mid: it is used to return a specific number of charcters from a string value starting from a specified position 
+
+-- round: it is used to round a numeric value to specified number of decimal places 
+
+
+example:
+-- select Ucase(name) from customers;
+-- select lcase(name) from customers;
+-- select length(name) from customers;
+-- select mid(name, 1, 3) from customers;
+-- select round(price, 2) from products;
 
