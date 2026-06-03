@@ -494,3 +494,43 @@ Azure services : are divide into 18 catgeories and contains more than 200 servie
 
 instead of buying a physical server you can use azure cloud services to do almost everything 
 hosting, storing, analyzing, securing, and deploying 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Term	                        Answer
+
+
+ 
+Deployment	          Moving code/application from development to production.
+
+
+
+Virtualization       	  Running multiple VMs on a single physical server.
+
+
+
+Data Center	             Facility that hosts servers, storage, and networking infrastructure.
+
+
+
+Hypervisor	               Software that creates and manages virtual machines.
+
+
+Load Balancer	              Distributes traffic across multiple servers to prevent overload.
