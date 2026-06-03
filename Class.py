@@ -375,7 +375,8 @@
 # global variable : a variable s defined outside the fucntion is called a global variable 
 # it can be acceed from any where in the program 
 
-#  but if u want modify inisde the fucntion you must use the global keyword to modify the global varible inside the fucntion 
+#  but if u want modify inisde the fucntion you must use the global keyword to modify
+# the global varible inside the fucntion 
  
  
  

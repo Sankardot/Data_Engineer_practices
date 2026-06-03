@@ -477,7 +477,8 @@
 
 
 
--- Aggregate fucntion: it is a function that used to perform a calculation on a set of values and a return a single value as a result 
+-- Aggregate fucntion: it is a function that used to perform a calculation on a set of values and a return a
+-- single value as a result 
 
 -- it maniley used by group by clause and having clause to perform the calculation on the group of data 
 
@@ -525,3 +526,40 @@ example:
 -- select mid(name, 1, 3) from customers;
 -- select round(price, 2) from products;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- union : the union operator is used to combine the result set of two or more  select statments 
+
+-- every select stament within union must have the same number of columns 
+-- Combines the results.
+-- Removes duplicate rows.
+-- Slightly slower because SQL must check for duplicates.
+
+
+-- SELECT NAME FROM EMPLOYEES
+-- UNION
+-- SELECT NAME FROM MANAGERS;
+
+
+
+-- union all : it is used to combine the result set of two or more select statments 
+-- but  it doesnot allow to remove the duplicates rows from the result set 
+
+-- select city from customers 
+-- union all
+-- select city from suppliers;
+-- order by city 

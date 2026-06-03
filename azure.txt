@@ -473,3 +473,24 @@ Priority	Azure Service	                                                Purpose
 9	Microsoft Fabric	                                            Modern analytics and lakehouse
 
 10	Azure Key Vault	                                                Store passwords, secrets, keys securel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Azure services : are divide into 18 catgeories and contains more than 200 servies
+
+instead of buying a physical server you can use azure cloud services to do almost everything 
+hosting, storing, analyzing, securing, and deploying 
