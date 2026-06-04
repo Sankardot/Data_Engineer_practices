@@ -315,7 +315,6 @@
 # they are divide into postive an negativ
 
 
-git
 # postive indexing: starts from 0  and it is called a forword indexing 
 
 

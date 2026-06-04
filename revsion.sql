@@ -477,6 +477,82 @@
 
 
 
+
+
+
+clauses : it is inbuilt sql class that use certain conditional expersiion 
+which helps to acces a particular set of records from the data base 
+
+
+
+where clause : it is used to specify a condition reterving the data from table 
+it can perform row operation 
+
+it can be used select update delete statment 
+
+
+
+
+order by clause : it used to srot the result records in the database tables 
+it can be arranged in either asc and desc 
+
+
+
+group by clause : this statemnt is used to group together aby rows of a column with 
+same values stored in them 
+based on a function specfied in the statement 
+
+split ----->apply------------>combine 
+it is mostely used with arggrate function 
+
+
+
+having clause : having clause is used to fetch groups pf rows or values which are matched 
+with specified condition in group statement 
+
+it can perform a column operation 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- Aggregate fucntion: it is a function that used to perform a calculation on a set of values and a return a
 -- single value as a result 
 
@@ -532,7 +608,7 @@ example:
 
 
 
-
+  
 
 
 

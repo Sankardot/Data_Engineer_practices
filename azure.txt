@@ -534,3 +534,33 @@ Hypervisor	               Software that creates and manages virtual machines.
 
 
 Load Balancer	              Distributes traffic across multiple servers to prevent overload.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+adf(azure data Factory): it is a cloub bases data intergration etl and elt servies from microsoft azure 
+
+it is used extract the data from different sources 
+
+
+
+"Azure Data Factory is a cloud-based ETL/ELT and orchestration service used to move, transform, 
+and schedule data between multiple data sources and destinations."
+
+
+
+
+data orchestration:Orchestration is the automated coordination and execution of
+ multiple tasks or workflows in the correct sequence.
