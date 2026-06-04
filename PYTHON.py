@@ -299,7 +299,7 @@
     
 # pass:does nothing IT is place holder use it when code is needed syntatically but not yet written 
 
---------------------------------------------------
+#--------------------------------------------------
 
 
 # range function : it is used to genrate the sequence of number
@@ -315,7 +315,7 @@
 # they are divide into postive an negativ
 
 
-
+git
 # postive indexing: starts from 0  and it is called a forword indexing 
 
 
