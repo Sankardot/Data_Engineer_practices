@@ -550,17 +550,126 @@ Load Balancer	              Distributes traffic across multiple servers to preve
 
 
 
-adf(azure data Factory): it is a cloub bases data intergration etl and elt servies from microsoft azure 
-
-it is used extract the data from different sources 
-
-
-
-"Azure Data Factory is a cloud-based ETL/ELT and orchestration service used to move, transform, 
-and schedule data between multiple data sources and destinations."
 
 
 
 
-data orchestration:Orchestration is the automated coordination and execution of
- multiple tasks or workflows in the correct sequence.
+
+
+
+
+
+
+
+
+
+
+
+
+Core Services (Must Know)
+Microsoft Azure Azure Data Factory (ADF)
+Pipelines
+Linked Services
+Datasets
+Triggers
+Parameterization
+Incremental Loading
+
+
+
+Azure Databricks
+PySpark
+Spark Architecture
+Delta Lake
+Data Transformations
+Optimization
+
+
+
+
+
+Azure Data Lake Storage
+Storage Layers (Bronze, Silver, Gold)
+File formats (CSV, JSON, Parquet)
+
+
+
+
+Azure Synapse Analytics
+Dedicated SQL Pool
+Serverless SQL
+Data Warehousing concepts
+
+
+
+
+
+
+Database Services
+Azure SQL Database
+SQL Queries
+Joins
+Window Functions
+Stored Procedures
+
+
+
+
+
+
+Azure Cosmos DB (basic knowledge)
+
+Streaming & Real-Time
+Azure Event Hubs
+Azure Stream Analytics
+
+
+
+
+Monitoring & Security
+Azure Key Vault
+Azure Monitor
+Azure Active Directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
