@@ -1,19 +1,58 @@
 
 2. Insurance Data Modernization (Azure)
 
-1. Customer Analytics Platform (AWS)
+Environment: Azure Data Factory, Azure Databricks, ADLS Gen2, Azure Synapse, Hive, Spark, PySpark
+Duration: Jan 2020 – Mar 2022
+Description: Migrated on-premises insurance customer and payment systems to Azure cloud using modern
+ Big Data architecture and ETL pipelines.
+Roles & Responsibilities
+•	Developed end-to-end ETL pipelines using Azure Data Factory and Azure Databricks.
+•	Processed large-scale insurance data using Spark and PySpark.
+•	Migrated on-premise Cassandra and Mainframe data into ADLS Gen2.
+•	Created Hive tables and optimized queries for reporting requirements.
+•	Integrated Azure Synapse Analytics for enterprise reporting and analytics.
+•	Implemented data quality validations and transformation logic using PySpark.
+•	Worked on Delta Lake architecture for optimized data storage and faster querying.
+•	Collaborated with business teams to gather requirements and deliver technical solutions.
 
 
-Role: Big Data Engineer
-Environment: AWS Glue, EMR, S3, Athena, Redshift, Lambda, PySpark, Hive, Airflow
-Duration: Jan 2024 – Oct 2024
-Developed a cloud-based data analytics platform to process customer transaction and behavioral data using AWS Big Data technologies.
-•	Built ETL pipelines using AWS Glue and PySpark to process large-scale structured and semi-structured datasets.
-•	Used Amazon EMR clusters for distributed data processing and Spark job execution.
-•	Stored raw and processed data in Amazon S3 with partitioning and optimization for analytics.
-•	Created data warehouse tables in Amazon Redshift for business reporting and dashboarding.
-•	Used AWS Athena for serverless querying and ad-hoc data analysis.
-•	Automated workflows using Apache Airflow and monitored jobs using AWS CloudWatch.
-•	Optimized Spark jobs and improved performance by using partitioning, caching, and efficient joins.
-•	Implemented data validation, cleansing, and transformation logic using PySpark and SQL.
 
+
+
+
+
+
+
+
+Architecture
+
+
+Mainframe
+      |
+      |
+Cassandra
+      |
+      v
+
+Azure Data Factory
+      |
+      v
+
+ADLS Gen2 (Raw Layer)
+      |
+      v
+
+Azure Databricks
+(PySpark Transformations)
+      |
+      v
+
+Delta Lake
+      |
+      v
+
+Azure Synapse
+      |
+      v
+
+Power BI / Reports
