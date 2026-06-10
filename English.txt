@@ -1,26 +1,15 @@
-Good morning, and thank you for giving me this opportunity to introduce myself.
-
-My name is Sankar Narayana, and I am from Chittoor, 
-Andhra Pradesh. I have around 4 years of experience as a Big Data Engineer, and currently, 
-I am working at Maxton Technology in Bangalore.
-
-At present, I am part of the Customer Analytics Platform project, 
-where I contribute as a Big Data Engineer by working on 
-technologies such as PySpark, Hadoop, Hive, AWS, and ETL pipelines.
-
-Over the years, I have worked on both cloud and on-premises Big Data technologies, 
-including AWS, Azure, Hadoop, Spark, Hive, Airflow, and Databricks. 
-I have experience in building ETL pipelines, data processing, data migration, and performance optimization.
-
-I completed my bachelor’s degree from Mohan Babu University. During and after my studies,
- I earned several certifications in Python and SQL, and most recently, I achieved the Microsoft Azure certification.
-
-In Maxton Technology, I have been recognized multiple times for my effective and innovative contributions, 
-which motivated me to stay proactive and continuously improve my technical skills.
-
-On a personal note, I am a fitness enthusiast, which helps me maintain focus, discipline, 
-and consistency both professionally and personally.
-
-Now, I am looking forward to taking on new challenges where I can apply my technical skills, 
-gain more experience, and contribute to impactful projects and organizational growth.
-
+Good morning, and thank you for giving me this opportunity to introduce myself. My name is Sankar Narayana, and 
+I am from Chittoor, Andhra Pradesh. I have around 4 years of experience as a Big Data Engineer and 
+am currently working at Maxton Technology in Bangalore. At present, I am part of the Customer Analytics Platform project,
+where I work on technologies such as PySpark, Hadoop, Hive, AWS, Databricks, and ETL pipelines to process and 
+analyze large-scale data. Throughout my career,
+I have gained hands-on experience in building ETL pipelines, data migration, data processing, 
+performance optimization, and working with both cloud and on-premises Big Data technologies, including AWS,
+ Azure, Spark, Hive, Airflow, and Databricks. I completed my bachelor's degree from Mohan Babu University and 
+ have earned certifications in Python, SQL, and Microsoft Azure to strengthen my technical expertise.
+  At Maxton Technology, I have been recognized multiple times for my innovative contributions and commitment to 
+  delivering quality solutions, which has motivated me to continuously improve my skills.
+   Apart from my professional work, I am a fitness enthusiast, and I believe fitness helps me maintain discipline,
+    focus, and consistency in both my personal and professional life. I am now looking forward to new opportunities 
+    where I can apply my experience, take on challenging responsibilities, work with advanced data technologies, and
+     contribute to impactful projects while continuing to grow as a Data Engineer. Thank you.
