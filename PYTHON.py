@@ -315,7 +315,7 @@
 # they are divide into postive an negativ
 
 
-# postive indexing: starts from 0  and it is called a forword indexing 
+# postive indexing: starts from 0  and it is called a forword indexing s
 
 
 # data = ['a', 'b', 'c', 'd']
@@ -373,8 +373,8 @@
 # list compareshion is method of creating short and simple way to creata a list using single line code 
 
 # sqaure =[x*x for x in range(1,5)]
-# print(sqaure)
-
+# # print(sqaure)
+#     ff
 
 
 
