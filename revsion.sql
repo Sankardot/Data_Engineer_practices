@@ -480,37 +480,37 @@
 
 
 
-clauses : it is inbuilt sql class that use certain conditional expersiion 
-which helps to acces a particular set of records from the data base 
+-- clauses : it is inbuilt sql class that use certain conditional expersiion 
+-- which helps to acces a particular set of records from the data base 
 
 
 
-where clause : it is used to specify a condition reterving the data from table 
-it can perform row operation 
+-- where clause : it is used to specify a condition reterving the data from table 
+-- it can perform row operation 
 
-it can be used select update delete statment 
-
-
-
-
-order by clause : it used to srot the result records in the database tables 
-it can be arranged in either asc and desc 
+-- it can be used select update delete statment 
 
 
 
-group by clause : this statemnt is used to group together aby rows of a column with 
-same values stored in them 
-based on a function specfied in the statement 
 
-split ----->apply------------>combine 
-it is mostely used with arggrate function 
+-- order by clause : it used to srot the result records in the database tables 
+-- it can be arranged in either asc and desc 
 
 
 
-having clause : having clause is used to fetch groups pf rows or values which are matched 
-with specified condition in group statement 
+-- group by clause : this statemnt is used to group together aby rows of a column with 
+-- same values stored in them 
+-- based on a function specfied in the statement 
 
-it can perform a column operation 
+-- split ----->apply------------>combine 
+-- it is mostely used with arggrate function 
+
+
+
+-- having clause : having clause is used to fetch groups pf rows or values which are matched 
+-- with specified condition in group statement 
+
+-- it can perform a column operation 
 
 
 
@@ -639,3 +639,33 @@ example:
 -- union all
 -- select city from suppliers;
 -- order by city 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pivoting
+Pivoting is a SQL technique that transforms row-wise data into column-wise data.
+It converts unique values from rows into separate columns.
+Used to summarize and aggregate data.
+Helps display data in a cross-tabular (matrix) format for reporting and analysis.
+  
+
+
+
+
+  
+Unpivoting
+Unpivoting is the reverse of pivoting.
+It transforms column-wise data into row-wise data.
+Converts multiple columns into key-value pairs.
+Used for data normalization, ETL processes, and preparing data for analytical models.
