@@ -343,7 +343,7 @@
 
 
 
-# slicing is list methos 
+# slicing is list method 
 # it is technique to extract a subpart  from the sequence like a list string , tuple 
 
 
@@ -1153,6 +1153,23 @@
 
 
 # file handling 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

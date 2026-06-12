@@ -561,7 +561,8 @@
 
 -- group by clause spilts the result set into group of values 
 
--- GROUP BY is a row operation because it groups multiple rows into summary groups based on the values of one or more columns.
+-- GROUP BY is a row operation because it groups multiple rows into 
+-- summary groups based on the values of one or more columns.
 
 
 -- sum , mean ,max, count, avg
