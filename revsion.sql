@@ -653,19 +653,19 @@ example:
 
 
 
-Pivoting
-Pivoting is a SQL technique that transforms row-wise data into column-wise data.
-It converts unique values from rows into separate columns.
-Used to summarize and aggregate data.
-Helps display data in a cross-tabular (matrix) format for reporting and analysis.
+-- Pivoting
+-- Pivoting is a SQL technique that transforms row-wise data into column-wise data.
+-- It converts unique values from rows into separate columns.
+-- Used to summarize and aggregate data.
+-- Helps display data in a cross-tabular (matrix) format for reporting and analysis.
   
 
 
 
 
-  
-Unpivoting
-Unpivoting is the reverse of pivoting.
-It transforms column-wise data into row-wise data.
-Converts multiple columns into key-value pairs.
-Used for data normalization, ETL processes, and preparing data for analytical models.
+
+-- Unpivoting
+-- Unpivoting is the reverse of pivoting.
+-- It transforms column-wise data into row-wise data.
+-- Converts multiple columns into key-value pairs.
+-- Used for data normalization, ETL processes, and preparing data for analytical models.

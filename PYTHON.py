@@ -179,8 +179,12 @@
 # operators is genarelly used to perform operations on the values and variables  is called operators 
 
 
-
-
+# operand: In Python, an operand is the value or variable on which an operator performs an operation.
+#         A value, variable, or expression on which an operator acts to produce a result.
+        
+        
+        
+        
 # control staments : control statements are used to change the flow of execution is calledd  control stamnts 
 # it is divides into three types 
 # conditonal staments , jumping staments , looping statments 
