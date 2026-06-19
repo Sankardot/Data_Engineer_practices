@@ -1,4 +1,3 @@
-
 adf(azure data Factory): it is a cloub bases data intergration etl and elt servies from microsoft azure 
 
 it is used extract the data from different sources 
