@@ -1,0 +1,60 @@
+
+Data Orchestration:
+Data Orchestration is the process of automating, scheduling, monitoring, and managing 
+  data workflows to ensure data moves through different systems in the correct sequence  and at the right time.
+
+
+
+
+
+Data ingestion : 
+
+Data ingestion is the process of extracting data from various source systems and loading it into a 
+target storage platform such as a data lake, data warehouse, or database for further processing and analysis.
+
+
+
+data warehouse : data warehouse is centralized repositary used to store large amount of data 
+and historicald data collected from differnt souces reporting and analytics and businees intellgence 
+
+
+data warehousing : it is the process of the extacting data from differnt sources is called a data warehosuing 
+transforming it into a consistent format and loading it into a centralized reporting analyticsand businnes decison making 
+
+
+
+
+
+olap:online analytics platform
+
+stores the historical data for analytics purpose 
+
+
+
+
+
+oltp : online transaction platform 
+ it is used for traction purpose 
+
+
+
+
+
+ETl:it is intergration procees to extract the data from different souces 
+transforming it according  to businees needs requirment and loads 
+
+elt it cloud approach 
+they are two layers 
+
+they are staging layer and core layer 
+
+staging layer : it raw data  fromat 
+core layer : the data is curated 
+
+data mart is a sugject oreinted and department specificsubset of data warehosue 
+
+
+
+
+
+
