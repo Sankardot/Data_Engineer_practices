@@ -7,6 +7,10 @@
 # coding is the step by step instructions that got computers to do what you want them to do 
 
 
+
+
+
+
 # programiing = plan 
 # coding = implementation 
 
